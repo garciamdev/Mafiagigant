@@ -1,0 +1,233 @@
+/* css reset */
+* { border: 0; margin: 0; padding: 0; }
+table, td, th, tr { border-collapse: collapse; border-spacing: 0; text-align: left; }
+input { margin: 0; padding: 0; }
+ol, ul { list-style: none; }
+:focus { outline: 0; }
+
+/* general */
+h1, h5{
+background: url('/themes/secretcrime/img/h1.png') no-repeat;
+height: 40px;
+color: #fff;
+font-size: 18px;
+line-height: 40px;
+margin: -10px -15px 0px -15px;
+padding-left: 15px;
+font-weight: normal;
+text-align: center;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+margin-bottom: 10px;
+}
+p { margin: 10px 0; font-size: 12px; line-height: 16px; color: #877352;}
+
+/* links */
+a { color: #fff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* content */
+.content_block { padding: 5px 0; }
+.content_inner{
+background: rgba(0, 0, 0, 0.3);
+padding: 10px 15px;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 0.2);
+border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+}
+
+/* tables */
+table.content_table{
+border-left: 2px solid rgba(0, 0, 0, 0.2);
+border-top: 2px solid rgba(0, 0, 0, 0.2);
+background: #1b1b1c url('/themes/secretcrime/img/tableback.png') center top repeat-x;
+}
+table.content_table td { font-size: 12px; line-height: 16px; padding: 2px 6px; border-right: 2px solid rgba(0, 0, 0, 0.2); border-bottom: 2px solid rgba(0, 0, 0, 0.2); }
+table.content_table .tsub { background: #877352; color: #fff; padding: 4px 6px !important; font-weight: bold; }
+table.content_table .tcell { background: #   ; color: #877352; }
+table.content_table .tsell { background: #   ; color: #877352; }
+
+/* quotes */
+em.quote { color: #ccc; display: inline-block; text-indent: 10px; }
+div.quote { border: 1px dotted #666; margin: 3px; padding: 6px; }
+
+/* ad clicks */
+.ad_clicks { padding: 10px 0 0 0; }
+.ad_clicks .content_inner { font-size: 12px; color: #fff }
+
+/* input styles */
+input[type=text], input[type=password], select, textarea{
+background: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(0, 0, 0, 0.2);
+color: #877352;
+font-size: 12px;
+color: #877352;
+padding: 4px;
+}
+input[type=submit], input[type=button]{
+background: url('/themes/secretcrime/img/button.png');
+border: 1px solid #877352;
+font-weight: bold;
+padding: 4px;
+min-width: 25px;
+color: #877352;
+font-size: 12px;
+border-radius: 5px;
+}
+input[type=submit]:hover, input[type=button]:hover{
+background: url('/themes/secretcrime/img/buttoninv.png')center bottom repeat;
+color: #ba9558;
+border: 1px solid #ba9558;
+}
+/* layout */
+* { font-family: Arial; font-size: 12px; color:#877352;}
+
+body { background: #222 url('/themes/secretcrime/img/pattern.png') center top repeat;}
+
+#wrap{
+margin: 0 auto;
+width: 960px;
+background: #45150d url('/themes/secretcrime/img/wrappat.png') center top repeat;;
+border: 2px ridge #8e7a59;
+border-radius: 30px;
+margin-top: 15px;
+margin-bottom: 15px;
+-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
+box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
+}
+#header{
+background: url('/themes/secretcrime/img/header.png') center top no-repeat;
+height: 200px;
+position: relative;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
+
+#topmenu { background: url('/themes/secretcrime/img/topmenu.png') center top no-repeat; height: 50px; padding: 0px 0px; }
+#topmenu ul li{
+float: left;
+padding: 0 25px;
+height: 50px;
+line-height: 50px;
+display: block;
+}
+#topmenu ul li:hover{
+background: rgba(69, 21, 13, 0.6);
+}
+#topmenu ul li+li{
+border-left: 2px ridge #8e7a59; 
+}
+#topmenu ul li a{
+display: block; 
+ont-size: 13px;
+color: #fff;
+font-weight: bold;
+text-decoration: none;
+}
+
+#left, #right{
+float: left;
+width: 172px;
+}
+#left{
+margin-left: 8px;
+}
+#right{
+margin-right: 8px;
+}
+#left ul, #right ul{
+margin-top: 10px;
+border-radius: 20px;
+background: url('/themes/secretcrime/img/menu-bg.png') center center no-repeat #444;
+border: 1px double #8e7a59;
+-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
+box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
+}
+#left ul li, #right ul li{
+display: block;
+padding: 0 0 0 15px;
+margin-top: -5px;
+padding-bottom: 5px;
+}
+#left ul li a, #right ul li a { display: block; font-size: 11px; color: #ccc; line-height: 20px; text-decoration: none; }
+#left ul li a:hover, #right ul li a:hover { color: #fff; text-decoration: none; }
+#left ul li.title, #right ul li.title{
+border: 1px double #8e7a59;
+background: url('/themes/secretcrime/img/menu-title.png') center center no-repeat;
+height: 40px;
+line-height: 40px;
+font-size: 15px;
+color: #fbd892;
+font-weight: bold;
+border-radius: 20px;
+border-radius: 20px;
+text-align: center;
+width: 120px;
+margin-left: 26px;
+margin-top: 10px;
+padding: 0 0 0 0; 
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
+margin-bottom: 10px;
+}
+#right ul.menu_credit li.title { color: #fbd892; }
+
+#center { float: left; width: 580px; padding: 0 10px; }
+
+#footer { color: #ccc; clear: both; padding: 10px; text-align: center; font-size: 11px }
+#footer a { color: #fbd892; text-decoration: underline; }
+.minichat {
+color: #877352; 
+}
+
+#memberheader{
+background: url('http://www.promotica.nl/secretcrime/header.png') center top no-repeat;
+height: 200px;
+position: relative;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
+
+#memberheader #stats {
+position: relative;
+top: 0;
+left: 700px;
+width: 290px;
+height: 160px;
+padding: 20px 5px 0 15px;
+color: green !important;
+}
+
+
+.headertable td {
+    color: #FFFF !important;
+}
+.headertable center {
+    color: #FFFF !important;
+}
+.headertable strong {
+
+    color: #FFFF !important;
+}
+.headertable span {
+
+    color: #FFFF !important;
+}
+
+
+.hpbarbg{
+	width:100px;
+	height:10px;
+	border:3px solid black;
+	background-color: rgba(0,0,0,0.6);
+	position:relative;	
+}
+.xpbar{
+	background: greem;
+	height:100%;
+	  
+	  
+}

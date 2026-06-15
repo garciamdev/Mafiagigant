@@ -1,0 +1,32 @@
+#start .htaccess code
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} !\.png$ [NC]
+RewriteCond %{REQUEST_URI} !\.css$ [NC]
+RewriteCond %{REQUEST_URI} !\.jpg$ [NC]
+RewriteCond %{REQUEST_URI} !\.js$ [NC]
+RewriteCond %{REQUEST_URI} ^/themes/.*
+
+
+RewriteCond %{HTTP} off
+
+
+
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+
+
+RewriteRule ^terms(/)?$ AV.pdf [L]
+RewriteRule ^ads.txt(/)?$ ads.txt [L]
+
+
+RewriteRule ^([^/]+)/([^/]+)(/)?$ index.php?var1=$1&var2=$2 [L]
+RewriteRule ^([^/]+)(/)?$ index.php?var1=$1 [L]
+RewriteRule ^(/)?$ index.php [L]
+
+
+
+
+

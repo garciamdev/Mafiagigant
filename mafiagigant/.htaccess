@@ -1,0 +1,31 @@
+Options +FollowSymLinks
+
+ 
+
+RewriteEngine On
+
+
+RewriteBase /
+RewriteCond %{REQUEST_URI} !\.png$ [NC]
+RewriteCond %{REQUEST_URI} !\.html$ [NC]
+RewriteCond %{REQUEST_URI} !\.php$ [NC]
+RewriteCond %{REQUEST_URI} !\.css$ [NC]
+RewriteCond %{REQUEST_URI} !\.jpg$ [NC]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+
+RewriteRule ^([^/]+)(/)?$ index.php?module=$1 [L,QSA]
+
+
+RewriteRule ^admin/([^/]+)(/)?$ admin.php?module=$1 [L,QSA]
+
+RewriteRule ^([^/]+)/([^/]+)(/)?$ index.php?module=$1&var=$2 [L,QSA]
+
+
+RewriteRule ^admin/([^/]+)/([^/]+)(/)?$ admin.php?module=$1&var=$2 [L,QSA]
+
+
