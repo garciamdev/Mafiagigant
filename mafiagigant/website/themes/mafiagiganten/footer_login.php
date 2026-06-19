@@ -104,7 +104,7 @@
               <div class="block block-casino"><div class="top"><h1>Casino</h1><div class="icon">&nbsp;</div></div><div class="content"><ul>
               <li><a style="color:red" href="blackjack">Blackjack</a></li>
 <li><a style="color:orange" href="wheel-of-fortune">Wheel of Fortune</a></li>
-<li><a style="color:red" href="slots">Slot machine</a></li>
+<li><a href="slots">Spielautomat</a></li>
 <li><a style="color:red"  href="poker">Poker</a></li>
 <li><a style="color:red" href="soccer">Soccer betting</a></li>
 <li><a style="color:red" href="higher-lower">Higher / lower</a></li>
@@ -113,7 +113,7 @@
 <li><a style="color:red" href="crack-the-safe">Crack the safe</a></li>
 <li><a style="color:red" href="horse-racing">Horse races</a></li>
 <li><a style="color:red" href="guess-the-number">Guess the number</a></li>
-<li><a style="color:red" href="roulette">Roulette</a></li>
+<li><a href="roulette">Roulette</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
               <div class="block block-familie"><div class="top"><h1>Family</h1><div class="icon">&nbsp;</div></div><div class="content"><ul>
               <li><a style="color:red" href="family">Family overview</a></li>
