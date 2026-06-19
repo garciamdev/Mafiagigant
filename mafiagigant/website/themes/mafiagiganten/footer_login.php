@@ -107,7 +107,7 @@
 <li><a href="slots">Spielautomat</a></li>
 <li><a href="poker">Poker</a></li>
 <li><a href="soccer">Sportwetten</a></li>
-<li><a style="color:red" href="higher-lower">Higher / lower</a></li>
+<li><a href="higher-lower">Höher / Tiefer</a></li>
 <li><a href="lottery">Lotterie</a></li>
 <li><a href="scratch-cards">Rubbellose</a></li>
 <li><a href="crack-the-safe">Knacke den Tresor</a></li>
