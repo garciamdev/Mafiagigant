@@ -4,9 +4,9 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 session_start();
+header('Content-Type: text/html; charset=utf-8');
 $module = isset($_GET['module']) ? $_GET['module'] : 'home';
 $var = isset($_GET['var']) ? $_GET['var'] : '';
-echo $module;
 include("core/language.php");
 include("core/theme.php");
 include("config/config.php");

@@ -19,7 +19,7 @@
     <link rel="shortcut icon" type="image/png" href="favicon"/>
     <meta name="keywords" content="Mafia Spiel, Mafiaspiel, Mafia game, Mafiagame, Gangster Spiel, Gangsterspiel, Gangster, online rpg, Gratis Spiel, Gratis spielen, kostenlos, Terror, Ganoven"/>
     <meta name="description" content="Es ist ein web- und textbasiertes Rollenspiel, dass in der kriminellen Welt der Mafia spielt."/>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15"/>
+    <meta charset="UTF-8"/>
     <script type="text/javascript" src="/scripts/jquery-1.7.1.js"></script>
     <script type="text/javascript" src="/scripts/fancybox/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="/scripts/fancybox/jquery.fancybox-1.2.1.pack.js"></script>

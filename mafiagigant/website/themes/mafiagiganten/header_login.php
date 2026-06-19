@@ -47,7 +47,7 @@ padding-right: 10px;
     <link rel="shortcut icon" type="image/png" href="favicon"/>
     <meta name="keywords" content="Mafia game, Mafia world, Mafia fun, gangster game, criminal game, gangster, online rpg, free game, play free, create free game, host game"/>
     <meta name="description" content="This is a web and text based role-playing game that takes place in the criminal world of the Mafia."/>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15"/>
+    <meta charset="UTF-8"/>
 
     <script type="text/javascript" src="/themes/mafiagiganten/js/jquery-1.7.1.js"></script>
     <script type="text/javascript" src="/themes/mafiagiganten/js/jquery.easing.1.3.js"></script>
@@ -107,7 +107,7 @@ padding-right: 10px;
 <div class="icon">&nbsp;</div></div><div class="content"><ul><li><a  href="owners">Property overview</a></li>
 <li><a style="color:red" href="forum">Forum</a></li><li><a href="chat">Chatbox</a></li><li><a style="color:red" href="manual">Manual</a></li>
 <li><a style="color:red" href="maffia-story">The story</a></li><li><a style="color:orange" href="news">Recent News</a></li><li><a  href="stats">Statistics</a></li>
-<li><a style="color:red" href="info/3/t-gliches-quiz">Tägliches Quiz</a></li>
+<li><a style="color:red" href="info/3/t-gliches-quiz">Tï¿œgliches Quiz</a></li>
 <li><a  href="https://tuerchen.app/Ap1moQO9xdjco5C7">Advent calender</a></li>
 
 

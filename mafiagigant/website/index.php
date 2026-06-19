@@ -16,6 +16,7 @@ if ($_SERVER['HTTP_HOST'] === 'www.secretcrime.nl') {
 }
 
 session_start();
+header('Content-Type: text/html; charset=utf-8');
 $module = isset($_GET['module']) ? $_GET['module'] : 'home';
 $redmodule = $module;
 $var = isset($_GET['var']) ? $_GET['var'] : '';

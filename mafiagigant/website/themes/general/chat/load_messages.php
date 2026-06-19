@@ -1,56 +1,49 @@
 <?php
+/**
+ * Laedt die letzten Chat-Nachrichten als JSON.
+ * Modernisiert: sicher (XSS-frei), utf8mb4, sauberes JSON statt HTML-Klumpen.
+ */
 session_start();
+header('Content-Type: application/json; charset=utf-8');
 
-    if(!isset($_SESSION['suid']) or $_SESSION['suid'] == ''){
-		exit;
-    }
-    
-    
-
-require_once 'config.php'; // Include your database connection configuration
-
-$limit = isset($_GET['limit']) ? $_GET['limit'] : 8;
-if($limit == 35){
-$limit = 35;
-}else{
-$limit = 8;
+if (!isset($_SESSION['suid']) || $_SESSION['suid'] === '') {
+    echo json_encode([]);
+    exit;
 }
-$sql = "SELECT * FROM shoutouts ORDER BY created_at DESC limit ".$limit." ";
-$result = mysqli_query($conn, $sql);
 
-	$chatss = '';
-	$chatss .= '<table class="minichat"><tbody>';
+require_once __DIR__ . '/config.php';
+
+// Limit (8 = Mini-Chat, 35 = grosser Chat). Sicher begrenzen.
+$limit = isset($_GET['limit']) ? (int) $_GET['limit'] : 8;
+if ($limit < 1)  { $limit = 8;  }
+if ($limit > 50) { $limit = 50; }
+
+$messages = [];
+
+$stmt = mysqli_prepare(
+    $conn,
+    'SELECT username, message, created_at
+       FROM shoutouts
+      ORDER BY created_at DESC, id DESC
+      LIMIT ?'
+);
+mysqli_stmt_bind_param($stmt, 'i', $limit);
+mysqli_stmt_execute($stmt);
+$result = mysqli_stmt_get_result($stmt);
+
 while ($row = mysqli_fetch_assoc($result)) {
-
-                    
-                            	 $allchats[]= '
-	<tr>
-	<td width="4%"></td>
-	<td width="18%"><a href="member/' . $row['username'] . '" class="">' . $row['username'] . '</a>:</td>
-	<td width="76%">' . $row['message'] . '</td>
-	</tr>
-                           
-                    ';
-                    
-                    
-                    
+    $messages[] = [
+        'username' => $row['username'],
+        'message'  => $row['message'],
+        'time'     => date('H:i', strtotime($row['created_at'])),
+        'date'     => date('d.m.Y', strtotime($row['created_at'])),
+    ];
 }
 
-
-
-   $chatsss = array_reverse($allchats);
-   foreach($chatsss as $row){
-           	 $chatss .= $row;
-   
-   }
-   
-   
-	$chatss .= '</tbody></table>'; 
+mysqli_stmt_close($stmt);
 mysqli_close($conn);
-echo $chatss;
 
+// Aelteste zuerst, damit der Verlauf von oben nach unten lesbar ist.
+$messages = array_reverse($messages);
 
-
-?>
-
-
+echo json_encode($messages, JSON_UNESCAPED_UNICODE);
