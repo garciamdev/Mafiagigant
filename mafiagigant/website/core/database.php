@@ -71,7 +71,7 @@ class Database
         $this->_mysqli = @new mysqli($host, $username, $password, $db, $port);
         if (!$this->_mysqli)
             die($this->error('There was a problem connecting to the database'));
-        $this->_mysqli->set_charset('utf8');
+        $this->_mysqli->set_charset(defined('DB_ENCODING') ? DB_ENCODING : 'utf8mb4');
                 $this->_mysqli->query("SET SESSION sql_mode = 'NO_ENGINE_SUBSTITUTION'");
 
         self::$_instance = $this;

@@ -159,12 +159,4 @@ if(isset($_SESSION['suid']) and $_SESSION['suid'] != '') {
 
 include("themes/loader.php");
 exit;
-
-
-echo"<BR />DIT IS EEN TEST:<BR />$lang <br />";
-
-ECHO $txt[$lang]['footer_made_by'];
-
-ECHO"<BR />EINDE TEST<BR />";
-
 ?>
