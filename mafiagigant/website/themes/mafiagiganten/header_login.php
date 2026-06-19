@@ -87,7 +87,7 @@ padding-right: 10px;
           </div>
           <div id="menu">
             <ul>
-              <li><a href="/">Home</a></li><li><a href="contact">Contact</a></li><li><a href="crew">Crew</a></li><li><a href="manual">Spielregeln</a></li><li><a href="logout">Log out</a></li>
+              <li><a href="/">Startseite</a></li><li><a href="contact">Kontakt</a></li><li><a href="crew">Crew</a></li><li><a href="manual">Spielregeln</a></li><li><a href="logout">Abmelden</a></li>
             </ul>
           </div>
           <script>
@@ -99,9 +99,9 @@ padding-right: 10px;
           <div id="content-left">
             <div class="blocks">
               <div class="block block-creditmenu"><div class="top"><h1>Credits menu</h1>
-              <div class="icon">&nbsp;</div></div><div class="content"><ul><li><a style="color:red" href="callcredits">Buy credits</a></li>
+              <div class="icon">&nbsp;</div></div><div class="content"><ul><li><a href="callcredits">Credits kaufen</a></li>
 <li><a href="exchange-office">Exchange office</a></li>
-<li><a style="color:red" href="credit-lottery">Credit lottery</a></li>
+<li><a href="credit-lottery">Credit-Lotterie</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
 <div class="block block-algemeen"><div class="top"><h1>General</h1>
 <div class="icon">&nbsp;</div></div><div class="content"><ul><li><a  href="owners">Property overview</a></li>
@@ -119,7 +119,7 @@ padding-right: 10px;
 </div><div class="bottom">&nbsp;</div></div>
               <div class="block block-persoonlijk"><div class="top"><h1>Personal</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li><a href="members">Member Rankings</a></li>
 <li><a href="online">Members online</a></li>
-<li><a style="color:red"  href="mail/inbox">Messages</a></li>
+<li><a href="mail/inbox">Nachrichten</a></li>
 <li><a href="donate">Spenden</a></li><li><a href="settings">Einstellungen</a></li>
 <li><a href="notepad">Notizblock</a></li>
 <li><a style="color:red" href="logs">Logs</a></li>
