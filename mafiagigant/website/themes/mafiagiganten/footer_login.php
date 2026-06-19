@@ -94,12 +94,12 @@
 <li><a href="attack">Mord / Angriff</a></li>
 <li><a href="russian-roulette">Russisches Roulette</a></li>
 <li><a style="color:orange" href="cars/steal">Steal cars</a></li>
-<li><a style="color:orange" href="drugs">Drugs</a></li>
-<li><a style="color:orange" href="transport">Money truck robbery</a></li>
+<li><a href="drugs">Drogen</a></li>
+<li><a href="transport">Geldtransport-Überfall</a></li>
 <li><a href="targets">Persönliche Ziele</a></li>
 <li><a href="missions">Missionen</a></li>
 <li><a href="red-light-district">Red-light district</a></li>
-<li><a style="color:red" href="work">Work</a></li>
+<li><a href="work">Arbeiten</a></li>
 <li><a href="farao">Mord am „Pharao"</a></li></ul></div><div class="bottom">&nbsp;</div></div>
               <div class="block block-casino"><div class="top"><h1>Casino</h1><div class="icon">&nbsp;</div></div><div class="content"><ul>
               <li><a href="blackjack">Blackjack</a></li>
