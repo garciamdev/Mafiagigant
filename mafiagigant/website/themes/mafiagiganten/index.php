@@ -8,7 +8,13 @@ if(login()){
 	if($module == 'home'){
 		$module = 'homelogin';
 	}
-	@require_once("view/".$module.".php");
+	$view_file = __DIR__."/view/".$module.".php";
+	if(file_exists($view_file)){
+		require_once($view_file);
+	}elseif(empty($module_file_exists)){
+		// Weder View noch Modul vorhanden -> freundliche "in Arbeit"-Seite
+		require_once(__DIR__."/view/_coming-soon.php");
+	}
 	require_once('footer_login.php');
 }else{
 	require_once('header.php');

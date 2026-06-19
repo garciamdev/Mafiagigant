@@ -138,7 +138,11 @@ define("ROOTPATH", dirname(__FILE__));
 define("APPPATH", ROOTPATH."/");
 
 
-@include(APPPATH ."modules/".$module."/".$module.".php");
+$module_file = APPPATH ."modules/".$module."/".$module.".php";
+$module_file_exists = file_exists($module_file);
+if($module_file_exists){
+	@include($module_file);
+}
  
 
 if(isset($_SESSION['suid']) and $_SESSION['suid'] != '') {
