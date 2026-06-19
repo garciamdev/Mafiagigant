@@ -92,7 +92,7 @@
 <li><a style="color:red" href="group-robbery">Group robbery</a></li>
 <li><a style="color:red" href="shooting">Marksmanship</a></li>
 <li><a style="color:red" href="attack">Murder</a></li>
-<li><a style="color:red" href="russian-roulette">Russian roulette</a></li>
+<li><a href="russian-roulette">Russisches Roulette</a></li>
 <li><a style="color:orange" href="cars/steal">Steal cars</a></li>
 <li><a style="color:orange" href="drugs">Drugs</a></li>
 <li><a style="color:orange" href="transport">Money truck robbery</a></li>
@@ -109,10 +109,10 @@
 <li><a style="color:red" href="soccer">Soccer betting</a></li>
 <li><a style="color:red" href="higher-lower">Higher / lower</a></li>
 <li><a style="color:red" href="lottery">Lottery</a></li>
-<li><a style="color:red" href="scratch-cards">Scratchcards</a></li>
-<li><a style="color:red" href="crack-the-safe">Crack the safe</a></li>
+<li><a href="scratch-cards">Rubbellose</a></li>
+<li><a href="crack-the-safe">Knacke den Tresor</a></li>
 <li><a style="color:red" href="horse-racing">Horse races</a></li>
-<li><a style="color:red" href="guess-the-number">Guess the number</a></li>
+<li><a href="guess-the-number">Zahlenraten</a></li>
 <li><a href="roulette">Roulette</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
               <div class="block block-familie"><div class="top"><h1>Family</h1><div class="icon">&nbsp;</div></div><div class="content"><ul>
