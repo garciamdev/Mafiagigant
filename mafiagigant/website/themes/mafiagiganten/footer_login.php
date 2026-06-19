@@ -116,9 +116,9 @@
 <li><a href="roulette">Roulette</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
               <div class="block block-familie"><div class="top"><h1>Family</h1><div class="icon">&nbsp;</div></div><div class="content"><ul>
-              <li><a style="color:red" href="family">Family overview</a></li>
-<li><a style="color:red" href="family/apply">Join a family</a></li>
-<li><a style="color:red" href="family/new">Create a family</a></li>
+              <li><a href="family">Familien-Übersicht</a></li>
+<li><a href="family/apply">Familie beitreten</a></li>
+<li><a href="family/new">Familie gründen</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
               <div class="block block-leden"><div class="top"><h1>Members</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li class="mu"><a href="members"><span style="color:red">3.228</span> Giganten</a></li>
 <li class="mo"><a href="online"><span><?= $online; ?></span> online</a></li>
