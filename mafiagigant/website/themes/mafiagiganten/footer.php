@@ -73,12 +73,6 @@ document.body.style.marginTop = '30px';
 
     <?php if($var != ''){$extraurl = $var.'/';}else{ $extraurl = '';}?>
       <?php if($module == 'homelogin'){$module = '/home';}?>
-<div id="language_bar" style="position: absolute; top: 0; left: 0; right: 0; height: 20px; background: #333; border-bottom: 1px solid #444; font-size: 11px; font-family: Arial; color: #aaa; font-weight: bold; text-align: center; padding: 5px 0; line-height: 20px">
-Sprachauswahl:
-
-&nbsp; <a style="font-weight: normal; color: #bbb; text-decoration: none" href="<?=$module;?>/<?=$extraurl;?>?language=de"><img style="margin-bottom: -4px" src="/themes/img/flag_de.png">&nbsp;Deutsch</a>
-&nbsp; <a style="font-weight: normal; color: #bbb; text-decoration: none" href="<?=$module;?>/<?=$extraurl;?>?language=en"><img style="margin-bottom: -4px" src="/themes/img/flag_en.png">&nbsp;English</a>
-</div>
   </body>
 </html>
 
