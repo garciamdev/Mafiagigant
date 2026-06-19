@@ -54,7 +54,7 @@
           </div>
           <div id="menu">
             <ul>
-              <li><a href="http://www.mafiagiganten.de/">Startseite</a></li><li><a href="contact">Kontakt</a></li><li><a href="crew">Team</a></li>
+              <li><a href="/">Startseite</a></li><li><a href="contact">Kontakt</a></li><li><a href="crew">Team</a></li>
             </ul>
           </div>
           <script>
