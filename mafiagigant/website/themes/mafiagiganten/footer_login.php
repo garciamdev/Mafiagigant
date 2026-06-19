@@ -89,7 +89,7 @@
               <li><a href="crimes">Crimes</a></li>
               <li><a href="robbery">Robbery</a></li>
 <li><a href="organized-crime">Organisiertes Verbrechen</a></li>
-<li><a style="color:red" href="group-robbery">Group robbery</a></li>
+<li><a href="group-robbery">Gruppenüberfall</a></li>
 <li><a href="shooting">Schießtraining</a></li>
 <li><a href="attack">Mord / Angriff</a></li>
 <li><a href="russian-roulette">Russisches Roulette</a></li>
@@ -97,7 +97,7 @@
 <li><a style="color:orange" href="drugs">Drugs</a></li>
 <li><a style="color:orange" href="transport">Money truck robbery</a></li>
 <li><a href="targets">Persönliche Ziele</a></li>
-<li><a style="color:red" href="missions">Missions</a></li>
+<li><a href="missions">Missionen</a></li>
 <li><a href="red-light-district">Red-light district</a></li>
 <li><a style="color:red" href="work">Work</a></li>
 <li><a href="farao">Mord am „Pharao"</a></li></ul></div><div class="bottom">&nbsp;</div></div>
