@@ -91,7 +91,7 @@
 <li><a href="organized-crime">Organisiertes Verbrechen</a></li>
 <li><a style="color:red" href="group-robbery">Group robbery</a></li>
 <li><a href="shooting">Schießtraining</a></li>
-<li><a style="color:red" href="attack">Murder</a></li>
+<li><a href="attack">Mord / Angriff</a></li>
 <li><a href="russian-roulette">Russisches Roulette</a></li>
 <li><a style="color:orange" href="cars/steal">Steal cars</a></li>
 <li><a style="color:orange" href="drugs">Drugs</a></li>
