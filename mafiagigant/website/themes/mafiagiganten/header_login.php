@@ -105,7 +105,7 @@ padding-right: 10px;
 </ul></div><div class="bottom">&nbsp;</div></div>
 <div class="block block-algemeen"><div class="top"><h1>General</h1>
 <div class="icon">&nbsp;</div></div><div class="content"><ul><li><a  href="owners">Property overview</a></li>
-<li><a style="color:red" href="forum">Forum</a></li><li><a href="chat">Chatbox</a></li><li><a href="manual">Handbuch</a></li>
+<li><a href="forum">Forum</a></li><li><a href="chat">Chatbox</a></li><li><a href="manual">Handbuch</a></li>
 <li><a href="maffia-story">Die Geschichte</a></li><li><a style="color:orange" href="news">Recent News</a></li><li><a  href="stats">Statistics</a></li>
 <li><a href="quiz">Tägliches Quiz</a></li>
 <li><a  href="https://tuerchen.app/Ap1moQO9xdjco5C7">Advent calender</a></li>
