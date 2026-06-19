@@ -106,12 +106,12 @@
 <li><a style="color:orange" href="wheel-of-fortune">Wheel of Fortune</a></li>
 <li><a href="slots">Spielautomat</a></li>
 <li><a style="color:red"  href="poker">Poker</a></li>
-<li><a style="color:red" href="soccer">Soccer betting</a></li>
+<li><a href="soccer">Sportwetten</a></li>
 <li><a style="color:red" href="higher-lower">Higher / lower</a></li>
-<li><a style="color:red" href="lottery">Lottery</a></li>
+<li><a href="lottery">Lotterie</a></li>
 <li><a href="scratch-cards">Rubbellose</a></li>
 <li><a href="crack-the-safe">Knacke den Tresor</a></li>
-<li><a style="color:red" href="horse-racing">Horse races</a></li>
+<li><a href="horse-racing">Pferderennen</a></li>
 <li><a href="guess-the-number">Zahlenraten</a></li>
 <li><a href="roulette">Roulette</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
