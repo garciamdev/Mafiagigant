@@ -102,10 +102,10 @@
 <li><a style="color:red" href="work">Work</a></li>
 <li><a style="color:red" href="farao">Murder "The Pharaoh"</a></li></ul></div><div class="bottom">&nbsp;</div></div>
               <div class="block block-casino"><div class="top"><h1>Casino</h1><div class="icon">&nbsp;</div></div><div class="content"><ul>
-              <li><a style="color:red" href="blackjack">Blackjack</a></li>
+              <li><a href="blackjack">Blackjack</a></li>
 <li><a style="color:orange" href="wheel-of-fortune">Wheel of Fortune</a></li>
 <li><a href="slots">Spielautomat</a></li>
-<li><a style="color:red"  href="poker">Poker</a></li>
+<li><a href="poker">Poker</a></li>
 <li><a href="soccer">Sportwetten</a></li>
 <li><a style="color:red" href="higher-lower">Higher / lower</a></li>
 <li><a href="lottery">Lotterie</a></li>
