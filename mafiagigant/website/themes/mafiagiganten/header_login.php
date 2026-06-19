@@ -87,7 +87,7 @@ padding-right: 10px;
           </div>
           <div id="menu">
             <ul>
-              <li><a href="/">Home</a></li><li><a href="contact">Contact</a></li><li><a href="crew">Crew</a></li><li><a href="info/1/spielregeln">Spielregeln</a></li><li><a href="logout">Log out</a></li>
+              <li><a href="/">Home</a></li><li><a href="contact">Contact</a></li><li><a href="crew">Crew</a></li><li><a href="manual">Spielregeln</a></li><li><a href="logout">Log out</a></li>
             </ul>
           </div>
           <script>
@@ -105,9 +105,9 @@ padding-right: 10px;
 </ul></div><div class="bottom">&nbsp;</div></div>
 <div class="block block-algemeen"><div class="top"><h1>General</h1>
 <div class="icon">&nbsp;</div></div><div class="content"><ul><li><a  href="owners">Property overview</a></li>
-<li><a style="color:red" href="forum">Forum</a></li><li><a href="chat">Chatbox</a></li><li><a style="color:red" href="manual">Manual</a></li>
-<li><a style="color:red" href="maffia-story">The story</a></li><li><a style="color:orange" href="news">Recent News</a></li><li><a  href="stats">Statistics</a></li>
-<li><a style="color:red" href="info/3/t-gliches-quiz">T�gliches Quiz</a></li>
+<li><a style="color:red" href="forum">Forum</a></li><li><a href="chat">Chatbox</a></li><li><a href="manual">Handbuch</a></li>
+<li><a href="maffia-story">Die Geschichte</a></li><li><a style="color:orange" href="news">Recent News</a></li><li><a  href="stats">Statistics</a></li>
+<li><a href="quiz">Tägliches Quiz</a></li>
 <li><a  href="https://tuerchen.app/Ap1moQO9xdjco5C7">Advent calender</a></li>
 
 
@@ -120,15 +120,15 @@ padding-right: 10px;
               <div class="block block-persoonlijk"><div class="top"><h1>Personal</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li><a href="members">Member Rankings</a></li>
 <li><a href="online">Members online</a></li>
 <li><a style="color:red"  href="mail/inbox">Messages</a></li>
-<li><a style="color:red" href="donate">Donate</a></li><li><a style="color:red" href="settings">Settings</a></li>
-<li><a style="color:red" href="notepad">Notepad</a></li>
+<li><a href="donate">Spenden</a></li><li><a href="settings">Einstellungen</a></li>
+<li><a href="notepad">Notizblock</a></li>
 <li><a style="color:red" href="logs">Logs</a></li>
 <li><a style="color:red" href="referrals">Referrals</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
               <div class="block block-omgeving"><div class="top"><h1>Neighborhood</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li><a href="bank">Bank account</a></li>
-<li><a style="color:red" href="safe">Safe</a></li>
+<li><a href="safe">Safe</a></li>
 <li><a  href="shop">Shop</a></li><li><a href="hospital">Hospital</a></li>
-<li><a style="color:red" href="bullet-factory">Ammunition factory</a></li>
+<li><a href="bullet-factory">Munitionsfabrik</a></li>
 <li><a  href="airport">Airport</a></li>
 <li><a style="color:red" href="auction">Auction</a></li><li><a style="color:orange" href="cars">Garage</a></li>
 <li><a href="prison">Prison</a></li>
