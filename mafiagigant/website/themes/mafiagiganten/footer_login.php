@@ -88,19 +88,19 @@
               <div class="icon">&nbsp;</div></div><div class="content"><ul>
               <li><a href="crimes">Crimes</a></li>
               <li><a href="robbery">Robbery</a></li>
-<li><a style="color:red" href="organized-crime">Organized crime</a></li>
+<li><a href="organized-crime">Organisiertes Verbrechen</a></li>
 <li><a style="color:red" href="group-robbery">Group robbery</a></li>
-<li><a style="color:red" href="shooting">Marksmanship</a></li>
+<li><a href="shooting">Schießtraining</a></li>
 <li><a style="color:red" href="attack">Murder</a></li>
 <li><a href="russian-roulette">Russisches Roulette</a></li>
 <li><a style="color:orange" href="cars/steal">Steal cars</a></li>
 <li><a style="color:orange" href="drugs">Drugs</a></li>
 <li><a style="color:orange" href="transport">Money truck robbery</a></li>
-<li><a style="color:red" href="targets">Personal goals</a></li>
+<li><a href="targets">Persönliche Ziele</a></li>
 <li><a style="color:red" href="missions">Missions</a></li>
 <li><a href="red-light-district">Red-light district</a></li>
 <li><a style="color:red" href="work">Work</a></li>
-<li><a style="color:red" href="farao">Murder "The Pharaoh"</a></li></ul></div><div class="bottom">&nbsp;</div></div>
+<li><a href="farao">Mord am „Pharao"</a></li></ul></div><div class="bottom">&nbsp;</div></div>
               <div class="block block-casino"><div class="top"><h1>Casino</h1><div class="icon">&nbsp;</div></div><div class="content"><ul>
               <li><a href="blackjack">Blackjack</a></li>
 <li><a style="color:orange" href="wheel-of-fortune">Wheel of Fortune</a></li>
