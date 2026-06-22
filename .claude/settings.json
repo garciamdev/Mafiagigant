@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git commit -q -m 'Fix PHP-8 '\\\\''Undefined constant'\\\\'' \\(unquotierte Array-Schluessel\\) im ganzen Code *)"
+      "Bash(git commit -q -m 'Fix PHP-8 '\\\\''Undefined constant'\\\\'' \\(unquotierte Array-Schluessel\\) im ganzen Code *)",
+      "Bash(git commit -q -m 'Chat nutzt zentrale DB-Config statt hartcodierter Live-Zugangsdaten *)"
     ]
   }
 }

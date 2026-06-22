@@ -1,18 +1,15 @@
 <?php
-// Datenbank-Verbindung fuer den Chat.
-// Hinweis: utf8mb4 ist zwingend noetig, damit Umlaute UND Emojis korrekt
-// gespeichert und ausgegeben werden.
-$db_host = 'localhost';
-$db_user = 'mafiagigan-crime';
-$db_pass = 'h1Fit9H-r2kV-sU2YmfR9-En78gWre-2Vkal-2j';
-$db_name = 'mafiagigan-crime';
+// Chat-DB-Verbindung – nutzt die ZENTRALE Konfiguration (config/db.config.php),
+// damit sie lokal (Laragon) UND auf dem Live-Server funktioniert und es keine
+// doppelten/veralteten Zugangsdaten mehr gibt.
+require_once __DIR__ . '/../../../config/db.config.php';
 
-$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
+$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 if (!$conn) {
     http_response_code(500);
     die('Connection failed');
 }
 
-// Wichtig: Charset auf utf8mb4 setzen (Umlaute + Emojis).
+// Charset auf utf8mb4 (Umlaute + Emojis).
 mysqli_set_charset($conn, 'utf8mb4');
