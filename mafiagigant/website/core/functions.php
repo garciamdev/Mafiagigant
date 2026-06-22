@@ -362,18 +362,18 @@ function getcountry($id){
 }
 
 						function getobjectowner($id, $string){
-						
-							$owner = '';
-							foreach($string as $f){
-								if($f['country'] == $id ){
-									$owner['username'] = !empty($f['username']) ? $f['username'] : $owner;
-									$owner['earnings'] = !empty($f['earnings']) ? $f['earnings'] : 0;
-								}
-							}
-							
-							$owner = isset($owner) ? $owner : '';
-							return $owner;
-						}
+
+	$owner = array('username' => '', 'earnings' => 0);
+	if(is_array($string)){
+		foreach($string as $f){
+			if(isset($f['country']) && $f['country'] == $id){
+				$owner['username'] = !empty($f['username']) ? $f['username'] : '';
+				$owner['earnings'] = !empty($f['earnings']) ? $f['earnings'] : 0;
+			}
+		}
+	}
+	return $owner;
+}
 						
 	    						
 	    						

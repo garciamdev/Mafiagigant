@@ -108,12 +108,6 @@ padding-right: 10px;
 <li><a href="forum">Forum</a></li><li><a href="chat">Chat</a></li><li><a href="manual">Handbuch</a></li>
 <li><a href="maffia-story">Die Geschichte</a></li><li><a style="color:orange" href="news">Neuigkeiten</a></li><li><a  href="stats">Statistiken</a></li>
 <li><a href="quiz">Tägliches Quiz</a></li>
-<li><a  href="https://tuerchen.app/Ap1moQO9xdjco5C7">Adventskalender</a></li>
-
-
-
-
-
 </ul>
 
 </div><div class="bottom">&nbsp;</div></div>
