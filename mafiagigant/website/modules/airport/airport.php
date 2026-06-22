@@ -44,11 +44,11 @@ $text['nl']['fly_wait'] = "Je moet {timer} wachten voordat je een vlucht kunt ne
 $text['nl']['not_enough_cash'] = "Je hebt € {amount} contant nodig!";
 
 $text['de']['airport_title'] = "Flughafen";
-$text['de']['current_country'] = "Präsident von";
+$text['de']['current_country'] = "Besitzer von";
 $text['de']['choose_destination'] = "Wähle ein Reiseziel";
 $text['de']['ticket_price'] = "Ticketpreis";
 $text['de']['residents'] = "Einwohner";
-$text['de']['president'] = "Präsident";
+$text['de']['president'] = "Besitzer";
 $text['de']['hide_destination'] = "Mein Reiseziel für 24 Stunden verbergen (kostet € 100.000 in bar)";
 $text['de']['fly'] = "Fliegen";
 $text['de']['no_country_selected'] = "Du musst ein Land auswählen!";
@@ -279,7 +279,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
 
 
-  	$q = "SELECT * FROM objects where object = 'president'  ";
+  	$q = "SELECT * FROM objects where object = 'jail'  ";
 	$o = $db->query($q)->fetch();
 	
 	
