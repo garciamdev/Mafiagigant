@@ -72,6 +72,7 @@ class Database
         if (!$this->_mysqli)
             die($this->error('There was a problem connecting to the database'));
         $this->_mysqli->set_charset(defined('DB_ENCODING') ? DB_ENCODING : 'utf8mb4');
+        @$this->_mysqli->query("SET time_zone = '" . date('P') . "'");
                 $this->_mysqli->query("SET SESSION sql_mode = 'NO_ENGINE_SUBSTITUTION'");
 
         self::$_instance = $this;
