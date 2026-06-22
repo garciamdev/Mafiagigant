@@ -88,9 +88,9 @@ if($var == 'sell'){ ?>
             <tr>
               <td class="tcell"><?= gettranslation($foreach['id'], $td); ?></td>
               <td class="tcell" align="center"><img src="/themes/img/icons/drugs_up.png"></td>
-              <td class="tcell"><?= number($ffds[$foreach['id']][0]); ?> <?= $text[$lang]['bags']; ?></td>
+              <td class="tcell"><?= number($ffds[$foreach['id']][0] ?? 0); ?> <?= $text[$lang]['bags']; ?></td>
               <td class="tcell" align="center"><img src="/themes/img/icons/stats_cash.png"></td>
-              <td class="tcell">€ <?= number($ffdp[$foreach['id']][0]); ?></td>
+              <td class="tcell">€ <?= number($ffdp[$foreach['id']][0] ?? 0); ?></td>
               <td class="tcell" align="center"><img src="/themes/img/icons/drugs_down.png"></td>
               <td class="tcell"><input class="input" type="text" name="<?= $foreach['id']; ?>" maxlength="6" style="width: 60px" value="0"></td>
             </tr>

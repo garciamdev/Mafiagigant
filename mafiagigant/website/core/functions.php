@@ -69,7 +69,7 @@ $string = strtotime($string);
 return $string;
 }
 function number($string){
-$string = number_format($string, 0, ',', '.');
+$string = number_format((float)$string, 0, ',', '.');
 return $string;
 } 
 
