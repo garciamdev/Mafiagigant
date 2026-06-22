@@ -2,7 +2,7 @@
  if($count == '0'){?>
 			<div class="content_block">
   <div class="content_inner">
-    <h1>User not found!</h1>
+    <h1>Spieler nicht gefunden!</h1>
     </div></div>
     
     <?php
