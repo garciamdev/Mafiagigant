@@ -89,7 +89,7 @@
           <td align="center" class="tcell"><?php if($crime['country'] == 0 or $userdata[0]['country'] == $crime['country']){?><input type="radio" name="robbery" value="<?= $crime['id'];?>"><?php } ?></td>
           <td align="center" class="tcell"><img src="<?= $img;?> "></td>
           <td class="tcell"><?= gettranslation($crime['id'], $t);?></td>
-          <td align="center" class="tcell"><img src="<?= getflag($crime[country]);?>"></td>
+          <td align="center" class="tcell"><img src="<?= getflag($crime['country']);?>"></td>
           <td class="tcell"><?= $countrytext;?></td>
           <td align="center" class="tcell"><img src="themes/img/icons/chance.png"></td>
           <td class="tcell"><?= $perc;?> %</td>

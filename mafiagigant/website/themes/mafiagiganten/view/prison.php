@@ -367,7 +367,7 @@ if($owner == $userdata[0]['username']){
             </tr>
       
       <script language="javascript">
-	countdown('<?=$a[time]?>','count_timer_<?=$a[username]?>','');
+	countdown('<?=$a['time']?>','count_timer_<?=$a['username']?>','');
 </script>
       <?php
 

@@ -151,7 +151,7 @@ if($var == 'prices'){
 	$dp = $db->query($q)->fetch();
 
 	foreach($dp as $fdp){
-		$drugsprice[$fdp[country]][$fdp[drugs]][] = $fdp['price'];
+		$drugsprice[$fdp['country']][$fdp['drugs']][] = $fdp['price'];
 	}
 }
 
@@ -243,12 +243,12 @@ if($var == 'sell'){
 	$q = "SELECT * FROM drugs_prices where country = '".$userdata[0]['country']."' ";
 	$dp = $db->query($q)->fetch();
 	foreach($dp as $fdp){
-		$ffdp[$fdp[drugs]][] = $fdp['price'];
+		$ffdp[$fdp['drugs']][] = $fdp['price'];
 	}
 	$q = "SELECT * FROM drugs_stock where username = '".$userdata[0]['username']."' ";
 	$ds = $db->query($q)->fetch();
 	foreach($ds as $fds){
-		$ffds[$fds[drugs]][] = $fds['amount'];
+		$ffds[$fds['drugs']][] = $fds['amount'];
 	}
 	
 	

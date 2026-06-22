@@ -24,7 +24,7 @@
 	$q = "SELECT * FROM stockexchange_stock where username = '".$userdata[0]['username']."' ";
 	$ds = $db->query($q)->fetch();
 	foreach($ds as $fds){
-		$ffds[$fds[stock]][] = $fds['amount'];
+		$ffds[$fds['stock']][] = $fds['amount'];
 	}
 	
 	
@@ -287,7 +287,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 				$errors[] = $text[$lang]['not_enough_cash'];
 			}
 			
-			if(($ffds[$fc[0][id]][0] + $amount) > $settings[0]['maxquantity']){
+			if(($ffds[$fc[0]['id']][0] + $amount) > $settings[0]['maxquantity']){
 			
 				$errors[] = txt($text[$lang]['maxquantity'],'{maxquantity}',number($settings[0]['maxquantity']));
 			}
@@ -353,7 +353,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 			$price = round($price - (($price / 100) * $settings[0]['commission']));
 
 			
-			if(($ffds[$fc[0][id]][0] - $amount) < 0){
+			if(($ffds[$fc[0]['id']][0] - $amount) < 0){
 			
 				$errors[] = $text[$lang]['not_enough_stock'];
 			}
@@ -449,5 +449,5 @@ $ffds = [];
 	$q = "SELECT * FROM stockexchange_stock where username = '".$userdata[0]['username']."' ";
 	$ds = $db->query($q)->fetch();
 	foreach($ds as $fds){
-		$ffds[$fds[stock]][] = $fds['amount'];
+		$ffds[$fds['stock']][] = $fds['amount'];
 	}

@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit -q -m 'Fix PHP-8 '\\\\''Undefined constant'\\\\'' \\(unquotierte Array-Schluessel\\) im ganzen Code *)"
+    ]
+  }
+}

@@ -60,7 +60,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 	foreach($l as $language){
 				
 				
-			$planguage = $db->escape($_POST[$language[lang]]);
+			$planguage = $db->escape($_POST[$language['lang']]);
 			
 			$translation = array(
                 'activity' => 'stealcars',
@@ -108,7 +108,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 	foreach($l as $language){
 				
 				
-			$planguage = $db->escape($_POST[$language[lang]]);
+			$planguage = $db->escape($_POST[$language['lang']]);
 			
 			$countrysl = array(
                 'activity' => 'cars',
@@ -172,7 +172,7 @@ if($var == 'editcar'){
 	
      	foreach($l as $language){
 				
-			$planguage = $db->escape($_POST[$language[lang]]);
+			$planguage = $db->escape($_POST[$language['lang']]);
 			
   			$q = "SELECT * FROM translations where activity = 'cars' and lang = '".$language['lang']."' and activity_id = '".$id."'";
 			$tc = $db->query($q)->fetch();
@@ -278,7 +278,7 @@ if($var == 'editstealcar'){
 	
      	foreach($l as $language){
 				
-			$planguage = $db->escape($_POST[$language[lang]]);
+			$planguage = $db->escape($_POST[$language['lang']]);
 			
   			$q = "SELECT * FROM translations where activity = 'stealcars' and lang = '".$language['lang']."' and activity_id = '".$id."'";
 			$tc = $db->query($q)->fetch();

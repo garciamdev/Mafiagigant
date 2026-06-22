@@ -276,7 +276,7 @@ foreach($countrys as $ft){
 	$qcu = "SELECT count(id) as quantity FROM garage where country = '".$ft['id']."' and  username = '".$userdata[0]['username']."'";
 	$fcu = $db->query($qcu)->fetch();
 	$uc = $fcu[0]['quantity']; 
-	$arrcars[$ft[id]] = isset($uc) ? $uc  : 0;
+	$arrcars[$ft['id']] = isset($uc) ? $uc  : 0;
 }
 	
 	

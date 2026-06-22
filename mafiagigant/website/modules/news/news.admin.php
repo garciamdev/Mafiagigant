@@ -47,8 +47,8 @@ if($var == 'edit'){
 	
      	foreach($l as $language){
 				
-			$planguagetitle = $db->escape($_POST[$language[lang].'_title']);
-			$planguagedescription = $db->escape($_POST[$language[lang].'_description']);
+			$planguagetitle = $db->escape($_POST[$language['lang'].'_title']);
+			$planguagedescription = $db->escape($_POST[$language['lang'].'_description']);
 			
 			//echo "$planguagetitle -> $planguagedescription <br />";
   			$q = "SELECT * FROM translations_news where activity = 'news_title' and lang = '".$language['lang']."' and activity_id = '".$id."'";
@@ -156,8 +156,8 @@ if($var == 'new'){
 	
      	foreach($l as $language){
 				
-			$planguagetitle = $db->escape($_POST[$language[lang].'_title']);
-			$planguagedescription = $db->escape($_POST[$language[lang].'_description']);
+			$planguagetitle = $db->escape($_POST[$language['lang'].'_title']);
+			$planguagedescription = $db->escape($_POST[$language['lang'].'_description']);
 			
 
 		

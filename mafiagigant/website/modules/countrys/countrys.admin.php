@@ -62,7 +62,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 	foreach($l as $language){
 				
 				
-			$planguage = $db->escape($_POST[$language[lang]]);
+			$planguage = $db->escape($_POST[$language['lang']]);
 			
 			$countrysl = array(
                 'activity' => 'countrys',
@@ -180,7 +180,7 @@ if($var == 'edit'){
 	
      	foreach($l as $language){
 				
-			$planguage = $db->escape($_POST[$language[lang]]);
+			$planguage = $db->escape($_POST[$language['lang']]);
 			
   			$q = "SELECT * FROM translations where activity = 'countrys' and lang = '".$language['lang']."' and activity_id = '".$id."'";
 			$tc = $db->query($q)->fetch();
