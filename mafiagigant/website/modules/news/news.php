@@ -5,9 +5,7 @@
         exit(); 
     }
 
-    if(!isset($userdata[0]['authority']) or $userdata[0]['authority'] != 'admin'){ 
-     $noaccess = 1;
-    }
+    // Neuigkeiten sind fuer alle Spieler lesbar.
  
  
  

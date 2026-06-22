@@ -112,8 +112,14 @@ if($userdata[0]['country'] == 0){
 
 }
  
-$jailallowed = array("chat","prison","stats","online","court");
-if($count_timer_jail > 0 and !in_array($module,$jailallowed)){
+// Im Gefaengnis sind nur Aktions-/Geld-Seiten gesperrt; Infoseiten & Account bleiben erreichbar.
+$jailblocked = array("crimes","robbery","organized-crime","group-robbery","shooting","attack",
+"russian-roulette","cars","transport","drugs","red-light-district","work","suspicious-packages",
+"boxing","sports-hall","farao","missions","targets","bullet-factory","airport","bank","safe","shop",
+"exchange-office","donate","auction","callcredits","credit-lottery","wheel-of-fortune","roulette",
+"slots","blackjack","poker","higher-lower","lottery","scratch-cards","crack-the-safe","horse-racing",
+"soccer","guess-the-number");
+if($count_timer_jail > 0 and in_array($module,$jailblocked)){
         header("Location: ".BASE_URL."prison/");
 }
  

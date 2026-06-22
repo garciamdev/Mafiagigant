@@ -10,7 +10,8 @@
       "Bash(git commit -q -m 'Neue Funktion: Protokolle \\(Logs\\) *)",
       "Bash(awk '/CREATE TABLE `garage`/,/;/' mafiagigan-crime.sql)",
       "Bash(grep -E \"^\\\\s*\\\\`\")",
-      "Bash(awk '/CREATE TABLE `cars`/,/;/' mafiagigan-crime.sql)"
+      "Bash(awk '/CREATE TABLE `cars`/,/;/' mafiagigan-crime.sql)",
+      "Bash(c:/laragon/bin/mysql/mysql-8.4.3-winx64/bin/mysql.exe -u root --default-character-set=utf8mb4 mafiagigan-crime -e 'SELECT content FROM translations_news WHERE activity='\\\\''news_title'\\\\'' AND lang='\\\\''de'\\\\'' ORDER BY id DESC LIMIT 4;')"
     ]
   }
 }
