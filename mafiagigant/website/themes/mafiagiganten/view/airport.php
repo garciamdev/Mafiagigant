@@ -76,7 +76,7 @@
           
           <?php
           foreach($c as $f){
-            $owner = getobjectowner($f['id'], $o);
+            $owner = getobjectowner($f['id'], $o)['username'];
           ?>
           <tr>
             <td width="5%" class="tcell" align="center"><input type="radio" name="fly" value="<?= $f['id']; ?>"></td>
