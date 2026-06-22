@@ -124,7 +124,7 @@ padding-right: 10px;
 <li><a  href="shop">Shop</a></li><li><a href="hospital">Krankenhaus</a></li>
 <li><a href="bullet-factory">Munitionsfabrik</a></li>
 <li><a  href="airport">Flughafen</a></li>
-<li><a style="color:red" href="auction">Auktionshaus</a></li><li><a style="color:orange" href="cars">Garage</a></li>
+<li><a href="auction">Auktionshaus</a></li><li><a style="color:orange" href="cars">Garage</a></li>
 <li><a href="prison">Gefängnis</a></li>
 <li><a href="sports-hall">Sporthalle</a></li><li><a  href="boxing">Boxclub</a></li>
 <li><a style="color:red" href="president">Präsident</a></li>

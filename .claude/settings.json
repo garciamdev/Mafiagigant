@@ -7,7 +7,10 @@
       "Bash(c:/laragon/bin/mysql/mysql-8.4.3-winx64/bin/mysql.exe -u root mafiagigan-crime -e 'SHOW TABLES LIKE '\\\\''logs'\\\\'';')",
       "Bash(c:/laragon/bin/mysql/mysql-8.4.3-winx64/bin/mysql.exe -u root mafiagigan-crime -e 'SHOW COLUMNS FROM logs;')",
       "Bash(awk '{print $1}')",
-      "Bash(git commit -q -m 'Neue Funktion: Protokolle \\(Logs\\) *)"
+      "Bash(git commit -q -m 'Neue Funktion: Protokolle \\(Logs\\) *)",
+      "Bash(awk '/CREATE TABLE `garage`/,/;/' mafiagigan-crime.sql)",
+      "Bash(grep -E \"^\\\\s*\\\\`\")",
+      "Bash(awk '/CREATE TABLE `cars`/,/;/' mafiagigan-crime.sql)"
     ]
   }
 }
