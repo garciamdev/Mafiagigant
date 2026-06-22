@@ -8,7 +8,7 @@
     
 
     if(!isset($userdata[0]['authority']) or $userdata[0]['authority'] != 'admin'){ 
-     $noaccess = 1;
+     $noaccess = 0;
     }
 
 $objectprice = 500;

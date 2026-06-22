@@ -106,7 +106,7 @@
         if (document.getElementById('year').value+'-'+document.getElementById('month').value+'-'+document.getElementById('day').value <= '2007-09-25') { document.getElementById('eldercheck').style.display = 'none'; } else { document.getElementById('eldercheck').style.display = 'table-row'; }
       </script>
 <table class="content_table"><tbody><tr><td class="tsub" colspan="4">Typ deze code over:</td></tr><tr><td class="tcell" colspan="4">
-    <?= showcaptcha(); ?></td></tr></tbody></table>    </form>
+    <?= captcha_buttons(); ?></td></tr></tbody></table>    </form>
   </div>
 </div>
 

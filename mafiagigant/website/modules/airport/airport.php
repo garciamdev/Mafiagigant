@@ -287,7 +287,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 	$c = $db->query($q)->fetch();
 	
 	
-				$owner = getobjectowner($userdata[0]['country'], $o);
+				$owner = getobjectowner($userdata[0]['country'], $o)['username'];
 				$currentcountry = getcountry($userdata[0]['country']);
 				
 

@@ -40,7 +40,7 @@ $text['en']['crime_go_to_jail'] = 'You have been caught by the police! You are g
 $text['de']['page_title'] = 'Verbrechen';
 $text['de']['table_crimes'] = 'Verbrechen';
 $text['de']['table_chance'] = 'Chance';
-$text['de']['captcha'] = 'Dieses Verbrechen begehen? Klicken Sie auf das grüne Häkchen!';
+$text['de']['captcha'] = 'Dieses Verbrechen begehen? Klicke auf den Button!';
 
 $text['de']['cheating'] = 'Versuchst du zu betrügen?';
 $text['de']['no_crime_selected'] = 'Kein Verbrechen ausgewählt';

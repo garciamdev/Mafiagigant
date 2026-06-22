@@ -153,6 +153,7 @@ global $db;
 
 									
 function onlinestatus($string){
+	if(!is_string($string) || trim($string) === ''){ return ''; }
 	global $db;
 	
 	$string = $db->escape($string);

@@ -41,7 +41,7 @@ $text['en']['found_bullets'] = '{amount} bullets';
 $text['de']['suspiciouspackages_Title'] = 'Verdächtige Pakete!';
 $text['de']['suspiciouspackages_message'] = 'Suche nach verdächtigen Paketen!';
 $text['de']['suspiciouspackages_searching'] = 'Du beginnst mit der Suche...';
-$text['de']['captcha'] = 'Auf der Suche nach verdächtigen Paketen? Klicke auf das grüne Häkchen!!';
+$text['de']['captcha'] = 'Auf der Suche nach verdächtigen Paketen? Klicke auf den Button!!';
 $text['de']['wait'] = 'Du musst noch {timer} warten, bevor du erneut nach Paketen suchen kannst!';
 $text['de']['wrong_country'] = 'Du kannst nur in {country} nach verdächtigen Paketen suchen!';
 

@@ -33,7 +33,7 @@ $text['de']['Basketball'] = 'Basketball';
 $text['de']['Golf'] = 'Golf';
 $text['de']['Tennis'] = 'Tennis';
 $text['de']['Soccer'] = 'Fußball';
-$text['de']['captcha'] = 'Diese Straftat begehen? Klicke auf das grüne Häkchen!!';
+$text['de']['captcha'] = 'Diese Straftat begehen? Klicke auf den Button!!';
 
 $text['es']['Gym_Title'] = 'Gimnasio';
 $text['es']['Welcome_Message'] = '¡Bienvenido al gimnasio!';

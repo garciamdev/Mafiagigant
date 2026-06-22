@@ -6,7 +6,7 @@
     }
 
     if(!isset($userdata[0]['authority']) or $userdata[0]['authority'] != 'admin'){ 
-    // $noaccess = 1;
+    // $noaccess = 0;
     }
  
  
@@ -27,7 +27,7 @@ $text['de']['wheel_title'] = "Glücksrad";
 $text['de']['item'] = "Preis";
 $text['de']['pricewin'] = "Du hast {price} gewonnen";
 $text['de']['wait'] = "Du musst noch {timer} warten, bevor du das Glücksrad erneut drehen kannst";
-$text['de']['captcha'] = "Rad drehen? Klicke auf das grüne Häkchen!";
+$text['de']['captcha'] = "Rad drehen? Klicke auf den Button!";
 
 $text['es']['wheel_title'] = "Ruleta de la Suerte";
 $text['es']['item'] = "Premio";

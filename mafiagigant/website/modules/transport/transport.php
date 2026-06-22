@@ -6,7 +6,7 @@
     }
 
     if(!isset($userdata[0]['authority']) or $userdata[0]['authority'] != 'admin'){ 
-     //$noaccess = 1;
+     //$noaccess = 0;
     }
  
 
@@ -94,7 +94,7 @@ $text['de']['hire_tools'] = 'Werkzeuge mieten';
 $text['de']['tools'] = 'Werkzeuge';
 $text['de']['explosives'] = 'Sprengstoff';
 $text['de']['ex_employee'] = 'Ex-Mitarbeiter';
-$text['de']['captcha'] = 'Werttransport überfallen? Klicke auf das grüne Häkchen!';
+$text['de']['captcha'] = 'Werttransport überfallen? Klicke auf den Button!';
 
 
 $text['es']['page_title'] = 'Asalto a Transportes de Valor';

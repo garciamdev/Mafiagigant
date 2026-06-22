@@ -128,7 +128,7 @@ $text['de']['price_per_percent'] = 'Preis pro Prozent';
 $text['de']['welcome_message'] = 'Willkommen im Krankenhaus, was können wir für dich tun?';
 $text['de']['your_health'] = 'Deine Gesundheit';
 $text['de']['buy_extra_health'] = 'Kaufe zusätzliche Gesundheit';
-$text['de']['captcha'] = 'Möchtest du Gesundheit kaufen? Klicke auf das grüne Häkchen!';
+$text['de']['captcha'] = 'Möchtest du Gesundheit kaufen? Klicke auf den Button!';
 
 
 $text['es']['page_title'] = "Comprar Hospital";
