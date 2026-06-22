@@ -98,17 +98,17 @@ padding-right: 10px;
         <div id="content">
           <div id="content-left">
             <div class="blocks">
-              <div class="block block-creditmenu"><div class="top"><h1>Credits menu</h1>
+              <div class="block block-creditmenu"><div class="top"><h1>Credits-Menü</h1>
               <div class="icon">&nbsp;</div></div><div class="content"><ul><li><a href="callcredits">Credits kaufen</a></li>
-<li><a href="exchange-office">Exchange office</a></li>
+<li><a href="exchange-office">Wechselstube</a></li>
 <li><a href="credit-lottery">Credit-Lotterie</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
-<div class="block block-algemeen"><div class="top"><h1>General</h1>
-<div class="icon">&nbsp;</div></div><div class="content"><ul><li><a  href="owners">Property overview</a></li>
-<li><a href="forum">Forum</a></li><li><a href="chat">Chatbox</a></li><li><a href="manual">Handbuch</a></li>
-<li><a href="maffia-story">Die Geschichte</a></li><li><a style="color:orange" href="news">Recent News</a></li><li><a  href="stats">Statistics</a></li>
+<div class="block block-algemeen"><div class="top"><h1>Allgemein</h1>
+<div class="icon">&nbsp;</div></div><div class="content"><ul><li><a  href="owners">Besitz-Übersicht</a></li>
+<li><a href="forum">Forum</a></li><li><a href="chat">Chat</a></li><li><a href="manual">Handbuch</a></li>
+<li><a href="maffia-story">Die Geschichte</a></li><li><a style="color:orange" href="news">Neuigkeiten</a></li><li><a  href="stats">Statistiken</a></li>
 <li><a href="quiz">Tägliches Quiz</a></li>
-<li><a  href="https://tuerchen.app/Ap1moQO9xdjco5C7">Advent calender</a></li>
+<li><a  href="https://tuerchen.app/Ap1moQO9xdjco5C7">Adventskalender</a></li>
 
 
 
@@ -117,24 +117,24 @@ padding-right: 10px;
 </ul>
 
 </div><div class="bottom">&nbsp;</div></div>
-              <div class="block block-persoonlijk"><div class="top"><h1>Personal</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li><a href="members">Member Rankings</a></li>
-<li><a href="online">Members online</a></li>
+              <div class="block block-persoonlijk"><div class="top"><h1>Persönlich</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li><a href="members">Mitglieder-Rangliste</a></li>
+<li><a href="online">Mitglieder online</a></li>
 <li><a href="mail/inbox">Nachrichten</a></li>
 <li><a href="donate">Spenden</a></li><li><a href="settings">Einstellungen</a></li>
 <li><a href="notepad">Notizblock</a></li>
-<li><a style="color:red" href="logs">Logs</a></li>
-<li><a style="color:red" href="referrals">Referrals</a></li>
+<li><a style="color:red" href="logs">Protokolle</a></li>
+<li><a style="color:red" href="referrals">Empfehlungen</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
-              <div class="block block-omgeving"><div class="top"><h1>Neighborhood</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li><a href="bank">Bank account</a></li>
+              <div class="block block-omgeving"><div class="top"><h1>Nachbarschaft</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li><a href="bank">Bankkonto</a></li>
 <li><a href="safe">Safe</a></li>
-<li><a  href="shop">Shop</a></li><li><a href="hospital">Hospital</a></li>
+<li><a  href="shop">Shop</a></li><li><a href="hospital">Krankenhaus</a></li>
 <li><a href="bullet-factory">Munitionsfabrik</a></li>
-<li><a  href="airport">Airport</a></li>
-<li><a style="color:red" href="auction">Auction</a></li><li><a style="color:orange" href="cars">Garage</a></li>
-<li><a href="prison">Prison</a></li>
-<li><a href="sports-hall">Gym</a></li><li><a  href="boxing">Boxing club</a></li>
-<li><a style="color:red" href="president">President</a></li>
-<li><a style="color:red" href="court">Court</a></li>
+<li><a  href="airport">Flughafen</a></li>
+<li><a style="color:red" href="auction">Auktionshaus</a></li><li><a style="color:orange" href="cars">Garage</a></li>
+<li><a href="prison">Gefängnis</a></li>
+<li><a href="sports-hall">Sporthalle</a></li><li><a  href="boxing">Boxclub</a></li>
+<li><a style="color:red" href="president">Präsident</a></li>
+<li><a style="color:red" href="court">Gericht</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
             </div>
           </div>

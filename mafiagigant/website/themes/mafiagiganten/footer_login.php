@@ -44,27 +44,27 @@
 <div class="content">
 <table>
 <tr>
-<td class="var">Rank</td>
+<td class="var">Rang</td>
 <td class="icon"><img src="/themes/img/icons/stats_rank.png" width="16" height="16"/></td>
 <td class="value"><span id="stats_rank"><?= rank($userdata[0]['username']);?></span></td>
 </tr>
 <tr>
-<td class="var">Strength</td>
+<td class="var">Stärke</td>
 <td class="icon"><img src="/themes/img/icons/stats_power.png" width="16" height="16"/></td>
 <td class="value"><span id="stats_power"><?= number($userdata[0]['att_power'] + $userdata[0]['deff_power']); ?></span></td>
 </tr>
 <tr>
-<td class="var">Cash</td>
+<td class="var">Bargeld</td>
 <td class="icon"><img src="/themes/img/icons/stats_cash.png" width="16" height="16"/></td>
 <td class="value"><span id="stats_cash">€ <?= number($userdata[0]['cash']); ?></span></td>
 </tr>
 <tr>
-<td class="var">Bank account</td>
+<td class="var">Bankkonto</td>
 <td class="icon"><img src="/themes/img/icons/stats_bank.png" width="16" height="16"/></td>
 <td class="value"><span id="stats_bank">€ <?= number($userdata[0]['bank']); ?></span></td>
 </tr>
 <tr>
-<td class="var">Country</td>
+<td class="var">Land</td>
 <td class="icon"><img id="stats_flag" src="/themes/img/icons/flag_1/flag.png" width="16" height="16"/></td>
 <td class="value"><span id="stats_country"></span></td>
 </tr>
@@ -74,7 +74,7 @@
 <td class="value"><span id="stats_credits"><?= number($userdata[0]['credits']); ?></span></td>
 </tr>
 <tr>
-<td class="var">Health</td>
+<td class="var">Gesundheit</td>
 <td class="icon"><img src="/themes/img/icons/stats_health.png" width="16" height="16"/></td>
 <td class="value"><span id="stats_health"><?= number($userdata[0]['health']); ?>%</span></td>
 </tr>
@@ -84,26 +84,26 @@
 &nbsp;
 </div>
 </div>
-              <div class="block block-criminaliteit"><div class="top"><h1>Criminal acts</h1>
+              <div class="block block-criminaliteit"><div class="top"><h1>Kriminelle Taten</h1>
               <div class="icon">&nbsp;</div></div><div class="content"><ul>
-              <li><a href="crimes">Crimes</a></li>
-              <li><a href="robbery">Robbery</a></li>
+              <li><a href="crimes">Verbrechen</a></li>
+              <li><a href="robbery">Raubüberfall</a></li>
 <li><a href="organized-crime">Organisiertes Verbrechen</a></li>
 <li><a href="group-robbery">Gruppenüberfall</a></li>
 <li><a href="shooting">Schießtraining</a></li>
 <li><a href="attack">Mord / Angriff</a></li>
 <li><a href="russian-roulette">Russisches Roulette</a></li>
-<li><a style="color:orange" href="cars/steal">Steal cars</a></li>
+<li><a style="color:orange" href="cars/steal">Autos stehlen</a></li>
 <li><a href="drugs">Drogen</a></li>
 <li><a href="transport">Geldtransport-Überfall</a></li>
 <li><a href="targets">Persönliche Ziele</a></li>
 <li><a href="missions">Missionen</a></li>
-<li><a href="red-light-district">Red-light district</a></li>
+<li><a href="red-light-district">Rotlichtviertel</a></li>
 <li><a href="work">Arbeiten</a></li>
 <li><a href="farao">Mord am „Pharao"</a></li></ul></div><div class="bottom">&nbsp;</div></div>
               <div class="block block-casino"><div class="top"><h1>Casino</h1><div class="icon">&nbsp;</div></div><div class="content"><ul>
               <li><a href="blackjack">Blackjack</a></li>
-<li><a style="color:orange" href="wheel-of-fortune">Wheel of Fortune</a></li>
+<li><a style="color:orange" href="wheel-of-fortune">Glücksrad</a></li>
 <li><a href="slots">Spielautomat</a></li>
 <li><a href="poker">Poker</a></li>
 <li><a href="soccer">Sportwetten</a></li>
@@ -115,21 +115,21 @@
 <li><a href="guess-the-number">Zahlenraten</a></li>
 <li><a href="roulette">Roulette</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
-              <div class="block block-familie"><div class="top"><h1>Family</h1><div class="icon">&nbsp;</div></div><div class="content"><ul>
+              <div class="block block-familie"><div class="top"><h1>Familie</h1><div class="icon">&nbsp;</div></div><div class="content"><ul>
               <li><a href="family">Familien-Übersicht</a></li>
 <li><a href="family/apply">Familie beitreten</a></li>
 <li><a href="family/new">Familie gründen</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
-              <div class="block block-leden"><div class="top"><h1>Members</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li class="mu"><a href="members"><span style="color:red">3.228</span> Giganten</a></li>
+              <div class="block block-leden"><div class="top"><h1>Mitglieder</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li class="mu"><a href="members"><span style="color:red">3.228</span> Giganten</a></li>
 <li class="mo"><a href="online"><span><?= $online; ?></span> online</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
-              <div class="block block-linkpartners"><div class="top"><h1>Link partners</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li><a target="_blank" href="https://www.facebook.com/mafiagiganten?fref=ts">Besuche uns auf Facebook</a></li>
+              <div class="block block-linkpartners"><div class="top"><h1>Linkpartner</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li><a target="_blank" href="https://www.facebook.com/mafiagiganten?fref=ts">Besuche uns auf Facebook</a></li>
 <li><a target="_blank" href="http://appsgeyser.com/getwidget/Mafiagiganten">Mafiagiganten jetzt auch als App - f&uuml;r Android</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
             </div>
           </div>
         </div>
-      <div id="footer">&copy; <strong>Mafiagiganten.de</strong> All rights reserved</div>
+      <div id="footer">&copy; <strong>Mafiagiganten.de</strong> Alle Rechte vorbehalten</div>
       </div>
     </div>
     <script type="text/javascript">
