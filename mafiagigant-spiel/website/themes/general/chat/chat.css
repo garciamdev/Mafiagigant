@@ -1,0 +1,165 @@
+/* Mafiagigant Chat - modernes Dark-Design */
+#mg-chat {
+  --mg-bg:      #1c1c1f;
+  --mg-bg2:     #26262b;
+  --mg-line:    #34343b;
+  --mg-text:    #e9e9ee;
+  --mg-muted:   #9a9aa6;
+  --mg-accent:  #c0392b;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--mg-text);
+  background: var(--mg-bg);
+  border: 1px solid var(--mg-line);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#mg-chat .mg-chat-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  background: var(--mg-bg2);
+  border-bottom: 1px solid var(--mg-line);
+  font-weight: 600;
+  font-size: 14px;
+}
+#mg-chat .mg-chat-head .mg-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: #2ecc71; box-shadow: 0 0 6px #2ecc71;
+}
+
+/* Nachrichtenliste */
+#mg-chat .mg-chat-messages {
+  flex: 1;
+  min-height: 120px;
+  max-height: 260px;
+  overflow-y: auto;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--mg-line) transparent;
+}
+#mg-chat[data-limit="35"] .mg-chat-messages { max-height: 520px; }
+
+#mg-chat .mg-chat-messages::-webkit-scrollbar { width: 8px; }
+#mg-chat .mg-chat-messages::-webkit-scrollbar-thumb {
+  background: var(--mg-line); border-radius: 4px;
+}
+
+#mg-chat .mg-chat-empty {
+  color: var(--mg-muted);
+  text-align: center;
+  padding: 24px 8px;
+  font-size: 13px;
+}
+
+#mg-chat .mg-chat-msg {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+#mg-chat .mg-chat-avatar {
+  flex: 0 0 26px;
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+#mg-chat .mg-chat-body { flex: 1; min-width: 0; }
+#mg-chat .mg-chat-user {
+  color: #e0b34c;
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+}
+#mg-chat .mg-chat-user:hover { text-decoration: underline; }
+#mg-chat .mg-chat-time {
+  color: var(--mg-muted);
+  font-size: 11px;
+  margin-left: 6px;
+}
+#mg-chat .mg-chat-text {
+  font-size: 13px;
+  line-height: 1.4;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* Eingabezeile */
+#mg-chat .mg-chat-inputrow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px;
+  background: var(--mg-bg2);
+  border-top: 1px solid var(--mg-line);
+}
+#mg-chat .mg-chat-input {
+  flex: 1;
+  background: var(--mg-bg);
+  border: 1px solid var(--mg-line);
+  border-radius: 18px;
+  color: var(--mg-text);
+  padding: 8px 12px;
+  font-size: 13px;
+  outline: none;
+}
+#mg-chat .mg-chat-input:focus { border-color: var(--mg-accent); }
+
+#mg-chat .mg-chat-emoji-btn,
+#mg-chat .mg-chat-send {
+  flex: 0 0 auto;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 34px; height: 34px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mg-chat .mg-chat-emoji-btn { background: var(--mg-line); }
+#mg-chat .mg-chat-emoji-btn:hover { background: #3f3f48; }
+#mg-chat .mg-chat-send {
+  background: var(--mg-accent);
+  color: #fff;
+}
+#mg-chat .mg-chat-send:hover { background: #d6492f; }
+
+/* Emoji-Panel */
+#mg-chat .mg-chat-emoji-panel {
+  display: none;
+  position: absolute;
+  bottom: 52px;
+  left: 8px;
+  right: 8px;
+  background: var(--mg-bg2);
+  border: 1px solid var(--mg-line);
+  border-radius: 10px;
+  padding: 8px;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 2px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.5);
+  z-index: 50;
+}
+#mg-chat .mg-chat-emoji-panel.open { display: grid; }
+#mg-chat .mg-emoji {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 6px;
+}
+#mg-chat .mg-emoji:hover { background: var(--mg-line); }
