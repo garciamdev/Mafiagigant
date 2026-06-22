@@ -117,7 +117,7 @@ padding-right: 10px;
 <li><a href="donate">Spenden</a></li><li><a href="settings">Einstellungen</a></li>
 <li><a href="notepad">Notizblock</a></li>
 <li><a href="logs">Protokolle</a></li>
-<li><a style="color:red" href="referrals">Empfehlungen</a></li>
+<li><a href="referrals">Empfehlungen</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
               <div class="block block-omgeving"><div class="top"><h1>Nachbarschaft</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li><a href="bank">Bankkonto</a></li>
 <li><a href="safe">Safe</a></li>
@@ -127,8 +127,8 @@ padding-right: 10px;
 <li><a href="auction">Auktionshaus</a></li><li><a style="color:orange" href="cars">Garage</a></li>
 <li><a href="prison">Gefängnis</a></li>
 <li><a href="sports-hall">Sporthalle</a></li><li><a  href="boxing">Boxclub</a></li>
-<li><a style="color:red" href="president">Präsident</a></li>
-<li><a style="color:red" href="court">Gericht</a></li>
+<li><a href="president">Präsident</a></li>
+<li><a href="court">Gericht</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
             </div>
           </div>

@@ -112,7 +112,7 @@ if($userdata[0]['country'] == 0){
 
 }
  
-$jailallowed = array("chat","prison","stats","online");
+$jailallowed = array("chat","prison","stats","online","court");
 if($count_timer_jail > 0 and !in_array($module,$jailallowed)){
         header("Location: ".BASE_URL."prison/");
 }

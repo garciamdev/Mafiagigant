@@ -5,6 +5,11 @@ use PHPMailer\PHPMailer\Exception;
 
 include("register.lang.php");
 
+// Referral: Wer hat geworben? (?ref=Name) in der Session merken.
+if (isset($_GET['ref']) && $_GET['ref'] !== '') {
+	$_SESSION['ref'] = preg_replace('/[^A-Za-z0-9._-]/', '', $_GET['ref']);
+}
+
 
 	function cleanstring($string) {
 		 return preg_replace("/[^A-Za-z0-9 ]/", ' ', $string);
@@ -132,7 +137,21 @@ $gender = 'male';
                 'ip' => $db->escape($_SERVER['REMOTE_ADDR']),
                 'status' => 'active'
             );
-            $user_id = $db->insert('users', $user); 
+            $user_id = $db->insert('users', $user);
+
+            // Referral: Werber gutschreiben (nur wenn Spalte referred_by existiert)
+            if (!empty($_SESSION['ref'])) {
+                $refname = $_SESSION['ref'];
+                $db->query("SHOW COLUMNS FROM users LIKE 'referred_by'")->fetch();
+                if ($db->affected_rows > 0) {
+                    $rq = $db->query("SELECT id FROM users WHERE username = '" . $db->escape($refname) . "' LIMIT 1")->fetch();
+                    if ($db->affected_rows == 1) {
+                        $db->where(['id' => $user_id])->update('users', ['referred_by' => $refname]);
+                        $db->query("UPDATE users SET credits = credits + 5 WHERE id = '" . (int) $rq[0]['id'] . "'")->execute();
+                    }
+                }
+                unset($_SESSION['ref']);
+            } 
 
 
 		
