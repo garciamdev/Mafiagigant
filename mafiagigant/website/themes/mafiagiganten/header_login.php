@@ -116,7 +116,7 @@ padding-right: 10px;
 <li><a href="mail/inbox">Nachrichten</a></li>
 <li><a href="donate">Spenden</a></li><li><a href="settings">Einstellungen</a></li>
 <li><a href="notepad">Notizblock</a></li>
-<li><a style="color:red" href="logs">Protokolle</a></li>
+<li><a href="logs">Protokolle</a></li>
 <li><a style="color:red" href="referrals">Empfehlungen</a></li>
 </ul></div><div class="bottom">&nbsp;</div></div>
               <div class="block block-omgeving"><div class="top"><h1>Nachbarschaft</h1><div class="icon">&nbsp;</div></div><div class="content"><ul><li><a href="bank">Bankkonto</a></li>

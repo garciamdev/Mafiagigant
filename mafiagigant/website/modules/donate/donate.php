@@ -35,6 +35,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['donate'])) {
             $userdata[0]['cash'] = $cash - $amount;
             $cash = $userdata[0]['cash'];
             $success[] = "Du hast € " . number($amount) . " an „" . htmlspecialchars($target) . "“ gesendet. 💸";
+            addlog($userdata[0]['username'], 'money', 'Du hast € ' . number($amount) . ' an „' . $tf[0]['username'] . '" gesendet.');
+            addlog($tf[0]['username'], 'money', 'Du hast € ' . number($amount) . ' von „' . $userdata[0]['username'] . '" erhalten.');
         }
     }
 }

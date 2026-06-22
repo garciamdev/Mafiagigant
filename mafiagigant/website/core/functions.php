@@ -71,6 +71,23 @@ return $string;
 function number($string){
 $string = number_format((float)$string, 0, ',', '.');
 return $string;
+}
+
+// Schreibt einen Eintrag ins Aktivitaets-Protokoll (logs). Tut nichts, wenn die
+// Tabelle (noch) nicht existiert -> kein Crash, falls Migration fehlt.
+function addlog($username, $type, $message){
+	global $db;
+	static $ok = null;
+	if($ok === null){
+		$db->query("SHOW TABLES LIKE 'logs'")->fetch();
+		$ok = ($db->affected_rows > 0);
+	}
+	if(!$ok){ return; }
+	$db->insert('logs', array(
+		'username' => $username,
+		'type'     => $type,
+		'message'  => $message,
+	));
 } 
 
 

@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(git commit -q -m 'Fix PHP-8 '\\\\''Undefined constant'\\\\'' \\(unquotierte Array-Schluessel\\) im ganzen Code *)",
-      "Bash(git commit -q -m 'Chat nutzt zentrale DB-Config statt hartcodierter Live-Zugangsdaten *)"
+      "Bash(git commit -q -m 'Chat nutzt zentrale DB-Config statt hartcodierter Live-Zugangsdaten *)",
+      "Bash(c:/laragon/bin/mysql/mysql-8.4.3-winx64/bin/mysql.exe -u root --default-character-set=utf8mb4 mafiagigan-crime)",
+      "Bash(c:/laragon/bin/mysql/mysql-8.4.3-winx64/bin/mysql.exe -u root mafiagigan-crime -e 'SHOW TABLES LIKE '\\\\''logs'\\\\'';')",
+      "Bash(c:/laragon/bin/mysql/mysql-8.4.3-winx64/bin/mysql.exe -u root mafiagigan-crime -e 'SHOW COLUMNS FROM logs;')",
+      "Bash(awk '{print $1}')",
+      "Bash(git commit -q -m 'Neue Funktion: Protokolle \\(Logs\\) *)"
     ]
   }
 }

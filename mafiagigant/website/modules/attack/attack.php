@@ -73,11 +73,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['target']) && empty($e
 
                 $success[] = "Angriff erfolgreich! 🔫 „" . htmlspecialchars($target)
                     . "“ liegt im Krankenhaus. Beute: € " . number($loot) . " und " . number($xpgain) . " XP.";
+                addlog($userdata[0]['username'], 'attack', 'Du hast „' . $tf[0]['username'] . '" angegriffen und € ' . number($loot) . ' erbeutet.');
+                addlog($tf[0]['username'], 'attacked', '„' . $userdata[0]['username'] . '" hat dich angegriffen! Du liegst im Krankenhaus und hast € ' . number($loot) . ' verloren.');
             } else {
                 $db->where(['id' => $userdata[0]['id']])->update('users', ['bullets' => $new_bullets]);
                 $userdata[0]['bullets'] = $new_bullets;
                 $bullets = $new_bullets;
                 $errors[] = "Der Angriff auf „" . htmlspecialchars($target) . "“ ist fehlgeschlagen – zu gut verteidigt! 💨";
+                addlog($tf[0]['username'], 'defended', '„' . $userdata[0]['username'] . '" hat versucht dich anzugreifen – du hast dich erfolgreich verteidigt!');
             }
 
             // Cooldown.
