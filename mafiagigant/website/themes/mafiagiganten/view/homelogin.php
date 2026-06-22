@@ -16,7 +16,7 @@
             </tr>
             <tr>
               <td width="10%" class="tcell" align="center"><img src="/themes/img/icons/stats_redlight.png"></td>
-              <td width="66%" class="tcell"><a href="red-light-district">Red-light district</a></td>
+              <td width="66%" class="tcell"><a href="red-light-district">Rotlichtviertel</a></td>
               <td width="24%" class="tcell" align="center"><a href="red-light-district" id="timer_redlight">00:00:00</a></td>
             </tr><!--
             <tr>
@@ -31,12 +31,12 @@
             </tr>-->
             <tr>
               <td width="10%" class="tcell" align="center"><img src="/themes/img/icons/car.png"></td>
-              <td width="66%" class="tcell"><a href="cars/steal">Steal cars</a></td>
+              <td width="66%" class="tcell"><a href="cars/steal">Autos stehlen</a></td>
               <td width="24%" class="tcell" align="center"><a href="cars/steal" id="timer_stealcars" >00:00:00</a></td>
             </tr>
             <tr>
               <td width="10%" class="tcell" align="center"><img src="/themes/img/icons/racing.png"></td>
-              <td width="66%" class="tcell"><a href="cars/race">Race</a></td>
+              <td width="66%" class="tcell"><a href="cars/race">Rennen</a></td>
               <td width="24%" class="tcell" align="center"><a href="cars/race" id="timer_race">00:00:00</a></td>
             </tr><!--
             <tr>
@@ -46,12 +46,12 @@
             </tr>-->
             <tr>
               <td width="10%" class="tcell" align="center"><img src="/themes/img/icons/transport.png"></td>
-              <td width="66%" class="tcell"><a href="transport">Money truck robbery</a></td>
+              <td width="66%" class="tcell"><a href="transport">Geldtransport-Überfall</a></td>
               <td width="24%" class="tcell" align="center"><a href="transport"  id="timer_transport">00:00:00</a></td>
             </tr>
             <tr>
               <td width="10%" class="tcell" align="center"><img src="/themes/img/icons/drugs.png"></td>
-              <td width="66%" class="tcell"><a href="robbery">Robbery</a></td>
+              <td width="66%" class="tcell"><a href="robbery">Raubüberfall</a></td>
               <td width="24%" class="tcell" align="center"><a href="robbery" id="timer_robbery">00:00:00</a></td>
             </tr><!--
             <tr>
@@ -66,7 +66,7 @@
             </tr>-->
             <tr>
               <td width="10%" class="tcell" align="center"><img src="/themes/img/icons/packages.png"></td>
-              <td width="66%" class="tcell"><a href="suspicious-packages" >Mysterious packages</a></td>
+              <td width="66%" class="tcell"><a href="suspicious-packages" >Verdächtige Pakete</a></td>
               <td width="24%" class="tcell" align="center"><a href="suspicious-packages" id="timer_suspiciouspackages">00:00:00</a></td>
             </tr>
           </tbody></table>
@@ -86,7 +86,7 @@
             </tr>-->
             <tr>
               <td width="10%" class="tcell" align="center"><img src="/themes/img/icons/airport.png"></td>
-              <td width="66%" class="tcell"><a href="airport">Fly</a></td>
+              <td width="66%" class="tcell"><a href="airport">Reisen</a></td>
               <td width="24%" class="tcell" align="center""><a href="airport" id="timer_fly">00:00:00</a></td>
             </tr>
             <tr>
@@ -101,7 +101,7 @@
             </tr>
             <tr> 
               <td width="10%" class="tcell" align="center"><img src="/themes/img/icons/wheel.png"></td>
-              <td width="66%" class="tcell"><a href="wheel-of-fortune">Wheel of Fortune</a></td>
+              <td width="66%" class="tcell"><a href="wheel-of-fortune">Glücksrad</a></td>
               <td width="24%" class="tcell" align="center"><a href="wheel-of-fortune"  id="timer_wheel">00:00:00</a></td>
             </tr><!--
             <tr>
