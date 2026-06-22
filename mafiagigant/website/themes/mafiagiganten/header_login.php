@@ -80,11 +80,9 @@ padding-right: 10px;
     <div id="main">
       <div id="main-inner">
         <div id="header">
-          <div id="logo" style="height:174px;width:350px;background:linear-gradient(135deg,#17171a 0%,#2b2b32 55%,#17171a 100%);border:1px solid #3a3a42;border-radius:10px;box-shadow:inset 0 0 45px rgba(0,0,0,.65),0 4px 16px rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;text-align:center;">
+          <div id="logo" style="height:174px;width:350px;display:flex;align-items:center;justify-content:center;">
             <div id="logo-inner">
-              <div style="font:800 12px 'Segoe UI',Arial,sans-serif;letter-spacing:5px;color:#c0392b;">&#127913; EHRE &middot; MACHT &middot; RESPEKT</div>
-              <h1 class="gamenaam" style="margin:3px 0 0;font:800 33px Georgia,'Segoe UI',serif;letter-spacing:1px;background:linear-gradient(180deg,#f6d98a,#e0b34c,#a9781f);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 2px 6px rgba(0,0,0,.5);">MAFIAGIGANTEN</h1>
-              <div style="margin-top:3px;font:600 10px 'Segoe UI',Arial,sans-serif;letter-spacing:2px;color:#9a9aa6;">DAS DEUTSCHE MAFIA-SPIEL</div>
+              <a href="<?= BASE_URL; ?>"><img src="/themes/img/logo_neu.png" alt="Mafiagiganten" style="max-width:350px;max-height:174px;width:auto;height:auto;"/></a>
             </div>
           </div>
           <div id="menu">
